@@ -1,0 +1,579 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Promenljive*/
+/*Mixin*/
+/*Stil*/
+.cleaner {
+  clear: both;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/*Header*/
+#header {
+  width: 100%;
+  height: auto;
+  background-color: #202020;
+}
+
+#header #logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#header #logo img {
+  width: 100px;
+  height: 100px;
+  padding-left: 100px;
+  position: relative;
+}
+
+#header #meny {
+  float: right;
+  margin-top: 42px;
+}
+
+#header #meny ul {
+  list-style-type: none;
+}
+
+#header #meny ul li {
+  display: inline;
+  padding-right: 100px;
+}
+
+#header #meny ul li a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#header #meny ul li a:hover {
+  color: orangered;
+}
+
+#sredina1 {
+  width: 100%;
+  height: auto;
+  background-image: url("../img/pozadina.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 130px;
+}
+
+#sredina1 #profilna {
+  width: 250px;
+  height: 340px;
+  margin: 0px auto;
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
+#sredina1 #profilna img {
+  width: 250px;
+  height: 340px;
+  border: 2px solid #202020;
+  border-radius: 10%;
+}
+
+#sredina1 #text {
+  width: 600px;
+  height: auto;
+  margin: 0px auto;
+  background-color: rgba(43, 43, 43, 0.9);
+  border-radius: 10px;
+}
+
+#sredina1 #text h1, #sredina1 #text h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+#sredina1 #text h2 {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+
+#sredina2 {
+  width: 100%;
+  height: auto;
+  background-color: #3d3d3d;
+}
+
+#sredina2 .naslovi {
+  width: 300px;
+  height: auto;
+  margin: 0px auto;
+  padding-bottom: 120px;
+}
+
+#sredina2 .naslovi h1, #sredina2 .naslovi #sredina1 #text h2, #sredina1 #text #sredina2 .naslovi h2 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  padding-top: 30px;
+  color: orangered;
+}
+
+#sredina2 .poslovi {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+#sredina2 .poslovi .ikone {
+  width: 23%;
+  height: auto;
+  float: left;
+  padding-left: 30px;
+}
+
+#sredina2 .poslovi .ikone .slike {
+  width: 120px;
+  height: 120px;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+
+#sredina2 .poslovi .ikone .slike img {
+  width: 120px;
+  height: 120px;
+  background-color: #202020;
+  border-radius: 50%;
+}
+
+#sredina2 .poslovi .ikone .text1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#sredina2 .poslovi .ikone .text1 h2 {
+  font-size: 40px;
+  padding-bottom: 5px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+#sredina2 .poslovi .ikone .text1 p {
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about {
+  width: 100%;
+  height: auto;
+  background-color: #202020;
+}
+
+#about .naslovi {
+  width: 300px;
+  height: auto;
+  margin: 0px auto;
+}
+
+#about .naslovi h1, #about .naslovi #sredina1 #text h2, #sredina1 #text #about .naslovi h2 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  padding-top: 30px;
+  color: orangered;
+}
+
+#about #grupa {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#about #grupa #text2 {
+  width: 40%;
+  height: auto;
+  float: left;
+  text-align: center;
+  padding-left: 25px;
+}
+
+#about #grupa #text2 h2 {
+  font-size: 40px;
+  padding-bottom: 15px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+#about #grupa #text2 p {
+  font-size: 24px;
+  text-align: justify;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  line-height: 42px;
+}
+
+#about #grupa #skilovi {
+  width: 40%;
+  height: auto;
+  float: right;
+  padding-right: 25px;
+}
+
+#about #grupa #skilovi #text3 {
+  width: 100%;
+  text-align: center;
+}
+
+#about #grupa #skilovi #text3 h2 {
+  font-size: 40px;
+  padding-bottom: 15px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+#about #grupa #skilovi #skill1 #skilltext {
+  padding-bottom: 5px;
+}
+
+#about #grupa #skilovi #skill1 #skilltext h2 {
+  float: left;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill1 #skilltext p {
+  float: right;
+  padding-top: 5px;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill1 .skill-gray-bg {
+  width: 100%;
+  height: 6px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: inset 0 1px 2px black;
+          box-shadow: inset 0 1px 2px black;
+}
+
+#about #grupa #skilovi #skill1 .skill-gray-bg .skill-black-bg {
+  background-color: orangered;
+  height: 6px;
+}
+
+#about #grupa #skilovi #skill1 .skill-gray-bg .photoshop {
+  width: 80%;
+}
+
+#about #grupa #skilovi #skill2 #skilltext1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#about #grupa #skilovi #skill2 #skilltext1 h2 {
+  float: left;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill2 #skilltext1 p {
+  float: right;
+  padding-top: 5px;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill2 .skill-gray-bg {
+  width: 100%;
+  height: 6px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: inset 0 1px 2px black;
+          box-shadow: inset 0 1px 2px black;
+}
+
+#about #grupa #skilovi #skill2 .skill-gray-bg .skill-black-bg {
+  background-color: orangered;
+  height: 6px;
+}
+
+#about #grupa #skilovi #skill2 .skill-gray-bg .premiere {
+  width: 90%;
+}
+
+#about #grupa #skilovi #skill3 #skilltext2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#about #grupa #skilovi #skill3 #skilltext2 h2 {
+  float: left;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill3 #skilltext2 p {
+  float: right;
+  padding-top: 5px;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill3 .skill-gray-bg {
+  width: 100%;
+  height: 6px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: inset 0 1px 2px black;
+          box-shadow: inset 0 1px 2px black;
+}
+
+#about #grupa #skilovi #skill3 .skill-gray-bg .skill-black-bg {
+  background-color: orangered;
+  height: 6px;
+}
+
+#about #grupa #skilovi #skill3 .skill-gray-bg .after {
+  width: 60%;
+}
+
+#about #grupa #skilovi #skill4 #skilltext3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#about #grupa #skilovi #skill4 #skilltext3 h2 {
+  float: left;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill4 #skilltext3 p {
+  float: right;
+  padding-top: 5px;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#about #grupa #skilovi #skill4 .skill-gray-bg {
+  width: 100%;
+  height: 6px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: inset 0 1px 2px black;
+          box-shadow: inset 0 1px 2px black;
+}
+
+#about #grupa #skilovi #skill4 .skill-gray-bg .skill-black-bg {
+  background-color: orangered;
+  height: 6px;
+}
+
+#about #grupa #skilovi #skill4 .skill-gray-bg .c {
+  width: 50%;
+}
+
+#projects {
+  width: 100%;
+  height: auto;
+  background-color: #3d3d3d;
+}
+
+#projects .naslovi1 {
+  width: 300px;
+  height: auto;
+  margin: 0px auto;
+}
+
+#projects .naslovi1 {
+  padding-bottom: 100px;
+}
+
+#projects .naslovi1 h1, #projects .naslovi1 #sredina1 #text h2, #sredina1 #text #projects .naslovi1 h2 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  padding-top: 30px;
+  color: orangered;
+}
+
+#projects .project1234 {
+  width: 24%;
+  height: auto;
+  padding-left: 15px;
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#projects .project1234 video {
+  width: 100%;
+}
+
+#projects .project1234 .opis1 {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+  background-color: rgba(43, 43, 43, 0.9);
+  border-radius: 10px;
+}
+
+#projects .project1234 .opis1 h2 {
+  font-size: 25px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+#projects .project1234 .opis1 p {
+  font-size: 19px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#projects .project1234 .slike {
+  width: 100%;
+}
+
+#projects .project1234 .slike img {
+  width: 100%;
+}
+
+.contact {
+  width: #141434;
+  background-color: #202020;
+}
+
+.contact .naslovi {
+  width: 300px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.contact .naslovi h1, .contact .naslovi #sredina1 #text h2, #sredina1 #text .contact .naslovi h2 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  padding-top: 30px;
+  color: orangered;
+}
+
+.contact #grupe {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact #grupe #grupaL {
+  width: 44%;
+  float: left;
+  padding-left: 20px;
+}
+
+.contact #grupe #grupaL form {
+  width: 80%;
+}
+
+.contact #grupe #grupaL form .forma {
+  width: 100%;
+  margin-top: 13px;
+  display: block;
+  padding-top: 10px;
+}
+
+.contact #grupe #grupaL form .forma input, .contact #grupe #grupaL form .forma textarea {
+  width: 90%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: #202020;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.contact #grupe #grupaL form .forma input:focus, .contact #grupe #grupaL form .forma textarea:focus {
+  outline: none;
+}
+
+.contact #grupe #grupaL form .forma textarea {
+  resize: none;
+  line-height: 20px;
+}
+
+.contact #grupe #grupaL form .forma button {
+  width: 25%;
+  padding: 10px 0px;
+  margin-top: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  background-color: #3d3d3d;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact #grupe #grupaL form .forma button:hover {
+  color: #3d3d3d;
+  background-color: #fff;
+  border: 3px solid #3d3d3d;
+}
+
+.contact #grupe #grupaR {
+  width: 47%;
+  float: left;
+}
+
+.contact #grupe #grupaR .linkovi {
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.contact #grupe #grupaR .linkovi p {
+  font-size: 30px;
+}
+
+.contact #grupe #grupaR .linkovi p i {
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.futer {
+  background-color: #202020;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.futer #copyright {
+  float: left;
+  margin-left: 15px;
+}
+
+.futer #cssresp_sass_sitemap {
+  float: right;
+  margin-right: 15px;
+}
+
+.futer #cssresp_sass_sitemap a {
+  color: #fff;
+  padding-right: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.futer #cssresp_sass_sitemap a:hover {
+  color: orangered;
+}
+/*# sourceMappingURL=style.css.map */
