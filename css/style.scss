@@ -417,11 +417,12 @@ $boja: #000020;
         #grupaL {
             width: 44%;
             float: left;
-            padding-left: 20px;
+            padding-left: 25px;
             form {
                 width: 80%;
+                padding-left: 100px;
                 .forma {
-                    width: 100%;
+                    width: 90%;
                     margin-top: 13px;
                     display: block;
                     padding-top: 10px;
@@ -472,10 +473,10 @@ $boja: #000020;
             width: 47%;
             float: left;
             .linkovi {
-                width: 100%;
-                margin: 40px auto;
+                width: 50%;
+                margin: 40px 0px;
                 text-align: center;
-                padding-left: 100px;
+                padding-left: 340px;
                 p {
                     font-size: 30px;
                     i {

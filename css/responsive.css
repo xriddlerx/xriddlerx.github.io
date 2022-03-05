@@ -24,6 +24,10 @@
     #sredina2 .poslovi .ikone .text1 p {
         font-size: 20px;
     }
+    /*Contact*/
+    .contact #grupe  #grupaR .linkovi {
+        padding-left: 320px;
+    }
 }
 @media screen and (max-width: 1101px) {/*sporedna*/
     /*Sredina2*/
@@ -104,8 +108,12 @@
         width: 45%;
     }
     /*contact*/
+    .contact #grupe #grupaR {
+        width: 43%;
+    }
     .contact #grupe #grupaR .linkovi {
         padding-left: 50px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 993px) {
@@ -142,6 +150,11 @@
     }
     #projects .project1234 .opis1 p {
         font-size: 20px;
+    }
+    /*contact*/
+    .contact #grupe #grupaL form .forma button {
+        width: 44%;
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 825px) {/*sporedna*/
@@ -248,11 +261,15 @@
     }
     /*contact*/
     .contact #grupe #grupaL {
-        width: 70%;
-        padding-left: 217px;
+        width: 80%;
+        padding-left: 110px;
       }
     .contact #grupe #grupaL form {
-        width:70%;
+        width:69%;
+    }
+    .contact #grupe #grupaL form .forma button {
+        width: 44%;
+        margin-left: 0px;
     }
     .contact #grupe #grupaR .linkovi {
         padding-left: 0px;
@@ -374,10 +391,11 @@
         margin-left: 55px;
     }
     .contact #grupe #grupaL form .forma button {
-        width: 27%;
+        width: 44%;
+        margin-left: 0px;
     }
     .contact #grupe #grupaL {
-        padding-left: 116px;
+        padding-left: 12px;
       }
     /*futer*/
     #copyright p {
@@ -460,10 +478,14 @@
     }
     .contact #grupe #grupaL {
         width:85%;
-        padding-left: 62px;
+        padding-left: 30px;
+    }
+    .contact #grupe #grupaL form {
+        margin-left: 0px;
     }
     .contact #grupe #grupaL form .forma button {
-        width: 25%;
+        width: 44%;
+        margin-left: 0px;
     }
     .contact #grupe #grupaR .linkovi p {
         font-size: 25px;
@@ -590,10 +612,14 @@
         width: 95%;
     }
     .contact #grupe #grupaL {
-        padding-left: 46px;
+        width: 89%;
+        padding: 0px;
     }
-    .contact #grupe #grupaL form .forma button {
-        width: 24%;
+    .contact #grupe #grupaL form {
+        width: 76%;
+    }
+    .contact #grupe #grupaR .linkovi {
+        padding-left: 16px;
     }
     /*futer*/
     #copyright p {
@@ -727,20 +753,27 @@
     .contact .naslovi h1{
         font-size: 33px;
     }
+    /*contact*/
+    .contact .naslovi h1 {
+        font-size: 35px;
+    }
     .contact #grupe {
-        width: 91%;
+        width: 95%;
+    }
+    .contact #grupe #grupaL {
+        width: 89%;
+        padding: 0px;
     }
     .contact #grupe #grupaL form {
-        width: 90%;
-        margin: 0px;
-          margin-left: 0px;
-        margin-left: 25px;
-      }
+        width: 80%;
+        padding-left: 89px;
+    }
     .contact #grupe #grupaL form .forma button {
-        width: 23%;
+        width: 44%;
+        margin-left: 0px;
     }
     .contact #grupe #grupaR {
-        width: 108%;
+        width: 100%;
         padding-top: 50px;
     }
     .contact #grupe #grupaR .linkovi p {
@@ -870,13 +903,15 @@
     }
      .contact #grupe #grupaL {
         width: 100%;
-        padding-left: 15px;
+    }
+    .contact #grupe #grupaL form {
+        padding-left: 68px;
     }
     .contact #grupe #grupaL .forma button {
         width: 50%;
     }
     .contact #grupe #grupaR {
         padding-top: 50px;
-        width: 104%;
+        width: 100%;
     }
 }
