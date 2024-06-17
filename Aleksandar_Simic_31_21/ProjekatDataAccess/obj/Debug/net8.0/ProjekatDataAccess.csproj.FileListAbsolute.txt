@@ -1,0 +1,17 @@
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\bin\Debug\net8.0\ProjekatDataAccess.deps.json
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\bin\Debug\net8.0\ProjekatDataAccess.runtimeconfig.json
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\bin\Debug\net8.0\ProjekatDataAccess.dll
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\bin\Debug\net8.0\ProjekatDataAccess.pdb
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\bin\Debug\net8.0\ProjekatDomain.dll
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\bin\Debug\net8.0\ProjekatDomain.pdb
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.csproj.AssemblyReference.cache
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.AssemblyInfoInputs.cache
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.AssemblyInfo.cs
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.csproj.CoreCompileInputs.cache
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\Projekat.B1111FC9.Up2Date
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.dll
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\refint\ProjekatDataAccess.dll
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.pdb
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ProjekatDataAccess.genruntimeconfig.cache
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDataAccess\obj\Debug\net8.0\ref\ProjekatDataAccess.dll

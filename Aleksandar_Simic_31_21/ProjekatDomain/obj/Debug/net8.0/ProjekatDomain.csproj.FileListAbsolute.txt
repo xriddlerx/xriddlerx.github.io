@@ -1,0 +1,11 @@
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\bin\Debug\net8.0\ProjekatDomain.deps.json
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\bin\Debug\net8.0\ProjekatDomain.dll
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\bin\Debug\net8.0\ProjekatDomain.pdb
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\ProjekatDomain.GeneratedMSBuildEditorConfig.editorconfig
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\ProjekatDomain.AssemblyInfoInputs.cache
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\ProjekatDomain.AssemblyInfo.cs
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\ProjekatDomain.csproj.CoreCompileInputs.cache
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\ProjekatDomain.dll
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\refint\ProjekatDomain.dll
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\ProjekatDomain.pdb
+E:\faks\3god\ASP\Lab\Aleksandar_Simic_31_21\ProjekatDomain\obj\Debug\net8.0\ref\ProjekatDomain.dll
