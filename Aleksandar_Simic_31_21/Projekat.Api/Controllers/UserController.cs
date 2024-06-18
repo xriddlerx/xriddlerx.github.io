@@ -25,7 +25,7 @@ namespace Projekat.Api.Controllers
         }
 
         // GET: api/<UserController>
-        //[Authorize]
+        [Authorize]
         [HttpGet]
         public IActionResult Get([FromQuery] UserSearch search, [FromServices] IGetUsersQuery query)
         {

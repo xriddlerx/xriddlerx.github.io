@@ -32,8 +32,8 @@ namespace ProjekatImplementation.UseCases.Commands
             _validator.ValidateAndThrow(data);
             CheckCartForUser(_actor.Id);
             var cartList = ListOfUniqueElements(data.Products);
-            var updatedList = CheckForDuplicatesInDatabase(cartList);
             int cartId = Context.Carts.Where(x => x.UserId == _actor.Id).Select(x => x.Id).FirstOrDefault();
+            var updatedList = CheckForDuplicatesInDatabase(cartList,cartId);
             InsertProductInCart(updatedList, cartId);
         }
 
@@ -75,14 +75,14 @@ namespace ProjekatImplementation.UseCases.Commands
             }
             return newList;
         }
-        public IEnumerable<ProductDTO> CheckForDuplicatesInDatabase(IEnumerable<ProductDTO> products)
+        public IEnumerable<ProductDTO> CheckForDuplicatesInDatabase(IEnumerable<ProductDTO> products,int cartId)
         {
             List<ProductDTO> newList = new List<ProductDTO>();
             foreach (ProductDTO product in products)
             {
-                if (Context.ProductCart.Any(x => x.ProductId == product.ProductId))
+                if (Context.ProductCart.Any(x => x.ProductId == product.ProductId && x.CartId == cartId))
                 {
-                    var productFromCart = Context.ProductCart.FirstOrDefault(x => x.ProductId == product.ProductId);
+                    var productFromCart = Context.ProductCart.FirstOrDefault(x => x.ProductId == product.ProductId && x.CartId == cartId);
                     productFromCart.Quantity += product.Quantity;
                     Context.SaveChanges();
                 }

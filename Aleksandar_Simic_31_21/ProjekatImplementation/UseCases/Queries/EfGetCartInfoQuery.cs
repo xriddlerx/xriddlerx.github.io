@@ -28,7 +28,7 @@ namespace ProjekatImplementation.UseCases.Queries
 
         public PagedResponse<ProductsFromCartInfo> Exectue(CartSearch search)
         {
-            var query = Context.ProductCart.Where(x => x.CartId == _actor.Id)
+            var query = Context.ProductCart.Where(x => x.Cart.User.Id == _actor.Id)
                                     .Include(y => y.Product)
                                     .ThenInclude(c => c.Prices)
                                     .ThenInclude(g => g.Product.Gallery)
